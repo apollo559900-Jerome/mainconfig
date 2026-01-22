@@ -838,16 +838,16 @@ DivisionTypes = {
         }
     }
 },
-    ["Mutants"] = {
-        NiceName = "Mutants",
-        Description = "Mutants are the millions of people across the Imperium of Man who have been deformed from the baseline Human phenotypic state by genetic mutation. This mutation can be caused from birth by environmental factors like ionising radiation acting in utero or by exposure to the raw psychic power of Chaos.",
+    ["Abhumans"] = {
+        NiceName = "Abhuman",
+        Description = "Abhuman are the millions of people across the Imperium of Man who have been deformed from the baseline Human phenotypic state by genetic mutation. This mutation can be caused from birth by environmental factors like ionising radiation acting in utero or by exposure to the raw psychic power of Chaos.",
         Team = "imperium",
 		Ranks = {
-	    {ID = 1, Name = "Mutant", Rank_Prefix = "", ModelsAllowed = {"models/dizcordum/wk/ecclesiarchy/priest.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+	    {ID = 1, Name = "Abhuman", Rank_Prefix = "", ModelsAllowed = {"models/dizcordum/wk/ecclesiarchy/priest.mdl"}, WeaponsAllowed = {}, CanPromote = false},
 		},
         Classes = {
 			{
-				Name = "Mutant",
+				Name = "Abhuman",
 				Core = true,
 				Default = true,
 				Models = {"models/wk/civilian/wk_civilian.mdl"},
